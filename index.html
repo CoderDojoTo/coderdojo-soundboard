@@ -4,11 +4,6 @@
   <head>
     <meta charset="utf-8">
     <title>Mario Soundboard</title>
-
-    <style>
-      button { border: none; background-color: white; }
-      img { height: 50px; }
-    </style>
   </head>
 
   <body>
@@ -18,20 +13,13 @@
     <audio id="mushroom">
       <source src="audio/mushroom.wav">
     </audio>
-    <audio id="1-up">
-      <source src="audio/1-up.wav">
-    </audio>
 
-    <button onclick="document.getElementById('coin').play()">
-      <img src="./images/coin.png" />
+    <button onclick="document.getElementById('coin').play()" style="border:none; background-color:white;">
+      <img src="images/coin.png" style="height:50px;"/>
     </button>
-    <button onclick="document.getElementById('mushroom').play()">
-      <img src="./images/mushroom.png" />
+    <button onclick="document.getElementById('mushroom').play()" style="border:none; background-color:white;">
+      <img src="images/mushroom.png" style="height:50px;"/>
     </button>
-    <button onclick="document.getElementById('1-up').play()">
-      <img src="./images/1-up.png" />
-    </button>
-
   </body>
 
 </html>
